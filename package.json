@@ -1,0 +1,8 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "dependencies": {
+    "requirejs": "^2.3.2",
+    "roundme-ios-gyro-patch": "^1.0.2"
+  }
+}
