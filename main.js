@@ -23,7 +23,12 @@ var myHeading = document.querySelector('h1');
 
 
 define(['roundme-ios-gyro-patch'], function (gyro) {
-  console.log(gyro)
+  gyro('round.me');
+
+  // document.addEventListener("DOMContentLoaded", function() {
+  //   gyro('round.me');
+  // });
+
 });
 
 myHeading.textContent = 'piu-piu';
